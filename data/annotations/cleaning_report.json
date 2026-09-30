@@ -1,0 +1,15 @@
+{
+  "pipeline": "Netra-One VLM Dataset Curation",
+  "stage": "Part C - Cleaning and Verification",
+  "input_annotation_records": 148,
+  "clip_records": 148,
+  "json_and_structure_valid": 148,
+  "validation_failed": 0,
+  "clip_threshold": 0.24,
+  "clip_flagged": 14,
+  "clean_verified_records": 134,
+  "quarantined_images": 14,
+  "cleaned_dataset": "/content/netra-one-vlm-pipeline/data/cleaned/verified_annotations.jsonl",
+  "quarantine_directory": "/content/netra-one-vlm-pipeline/data/quarantine_clip",
+  "invalid_records": []
+}

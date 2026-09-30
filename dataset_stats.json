@@ -1,0 +1,38 @@
+{
+  "dataset": "Netra-One Multimodal VLM Dataset",
+  "input_records": 134,
+  "exported_records": 134,
+  "sample_records": 75,
+  "format": "LLaVA-style JSONL",
+  "token_statistics": {
+    "total_tokens": 15355,
+    "unique_tokens": 463,
+    "vocabulary_diversity": 0.0302,
+    "record_token_length": {
+      "minimum": 77,
+      "maximum": 152,
+      "mean": 114.59,
+      "median": 113
+    }
+  },
+  "clip_score_distribution": {
+    "count": 134,
+    "minimum": 0.2402,
+    "maximum": 0.3457,
+    "mean": 0.2771,
+    "median": 0.2736,
+    "bins": {
+      "0.20-0.24": 0,
+      "0.24-0.26": 35,
+      "0.26-0.28": 46,
+      "0.28-0.30": 31,
+      "0.30-0.32": 18,
+      "0.32-0.34": 3,
+      "0.34+": 1
+    }
+  },
+  "files": {
+    "full_dataset": "/content/netra-one-vlm-pipeline/data/exported/netra_one_llava_dataset.jsonl",
+    "sample_dataset": "/content/netra-one-vlm-pipeline/sample_dataset.jsonl"
+  }
+}

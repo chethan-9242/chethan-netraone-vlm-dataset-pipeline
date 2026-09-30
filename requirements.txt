@@ -1,0 +1,12 @@
+
+numpy
+opencv-python
+Pillow
+ImageHash
+tqdm
+huggingface_hub
+transformers
+qwen-vl-utils
+torch
+torchvision
+sentencepiece

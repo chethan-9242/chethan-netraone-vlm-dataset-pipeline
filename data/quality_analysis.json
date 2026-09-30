@@ -1,0 +1,19 @@
+{
+  "total_images": 150,
+  "valid_images": 150,
+  "invalid_images": 0,
+  "thresholds_tested": {
+    "dark_brightness": 30,
+    "blur_laplacian_variance": 50,
+    "low_information_edge_density": 0.008,
+    "phash_hamming_distance": 6
+  },
+  "flagged": {
+    "dark": [],
+    "blurry": [
+      "cctv_candidate_0054.png"
+    ],
+    "low_information": [],
+    "near_duplicate_pairs": []
+  }
+}
