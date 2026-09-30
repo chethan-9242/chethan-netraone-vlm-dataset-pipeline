@@ -493,6 +493,24 @@ This allows low-quality images and potentially weak image-text pairs to be separ
 
 ---
 
+## Important: Accessing the Project After Download
+
+When downloading the repository as a ZIP from GitHub, the extracted folder may contain another folder with the same name:
+
+```text
+chethan-netraone-vlm-dataset-pipeline-main/
+└── chethan-netraone-vlm-dataset-pipeline-main/
+    ├── README.md
+    ├── requirements.txt
+    ├── collect_and_filter.py
+    ├── generate_vlm_dataset.py
+    ├── clean_and_verify.py
+    ├── export_dataset.py
+    ├── sample_dataset.jsonl
+    ├── sample_images/
+    └── data/
+
+
 # Summary
 
 The completed pipeline provides an end-to-end workflow for converting raw surveillance imagery into a filtered, automatically annotated, CLIP-verified, and LLaVA-compatible multimodal dataset.
